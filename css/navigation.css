@@ -1,0 +1,35 @@
+.menu ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+	display: flex;
+	flex-wrap: wrap;
+
+	font-family: Palatino, Georgia, serif;
+}
+
+.menu li {
+    margin-right: 2%;
+}
+
+.menu a {
+    padding: 5px;
+    text-decoration: underline;
+	color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.menu a:hover {
+	color: white;
+	background: #2a2d2d;
+}
+
+.menu a:active {
+	text-decoration: none;
+}
+
+.is-current { 
+    background-color: rgba(38,45,78,.4)
+}
